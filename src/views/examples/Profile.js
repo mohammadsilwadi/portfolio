@@ -146,7 +146,9 @@ class Profile extends React.Component {
                         <p>
                         Software Development Student @ ltuc & holding a civil engineer bachelor degree from AlBalqa Applied University.
                         </p>
-                        
+                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                          Show more
+                        </a>
                       </Col>
                     </Row>
                   </div>

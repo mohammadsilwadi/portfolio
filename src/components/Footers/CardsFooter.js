@@ -31,40 +31,51 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import landing from "assets/img/theme/landing.jpg";
-import profile from "assets/img/theme/profile.jpg";
+import OK from "assets/img/theme/sal.png";
+import profile from "assets/img/theme/bus.png";
+import HI from "assets/img/theme/wma.png";
 
 class CardsFooter extends React.Component {
   render() {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
+          {/* <Container className="container-lg">
             <Row>
-              <Col className="mb-5 mb-md-0" md="6">
+              <Col className="mb-5 mb-md-0" md="4">
                 <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
+                  <a target="_blank" href="https://mohammadsilwadi.github.io/cookie-stand/">Cookie  </a>
                     <CardImg
                       alt="..."
-                      src={landing}
+                      src={OK}
                     />
-                  </Link>
+             
                 </Card>
               </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
+              <Col className="mb-5 mb-lg-0" md="4">
                 <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
+                <a target="_blank" href="https://mohammadsilwadi.github.io/bus-mall/">Bus  </a>
                     <CardImg
                       alt="..."
                       src={profile}
                     />
-                  </Link>
+               
+                </Card>
+              </Col>
+              <Col className="mb-5 mb-lg-0" md="4">
+                <Card className="card-lift--hover shadow border-0">
+                <a target="_blank" href="https://wmsa-team.github.io/Library/index.html">WSMA  </a>
+                    <CardImg
+                      alt="..."
+                      src={HI}
+                    />
+                 
                 </Card>
               </Col>
             </Row>
-          </Container>
+          </Container> */}
           <Container>
-            <Row className="row-grid align-items-center my-md">
+            {/* <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
                   Thank you for supporting us!
@@ -131,7 +142,7 @@ class CardsFooter extends React.Component {
                   Star on Github
                 </UncontrolledTooltip>
               </Col>
-            </Row>
+            </Row> */}
             <hr />
             <Row className="align-items-center justify-content-md-between">
               <Col md="6">
